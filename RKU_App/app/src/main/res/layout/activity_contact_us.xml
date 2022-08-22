@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactUs">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="277dp"
+        android:layout_height="254dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintBottom_toTopOf="@+id/imgbt1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/rkulogo" />
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="143dp"
+        android:layout_marginEnd="143dp"
+        android:text="Developed BY"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/text8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="41dp"
+        android:fontFamily="serif-monospace"
+        android:text="Sagpariya Priyanshu"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imgbt1"
+        android:layout_width="78dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginBottom="156dp"
+        app:layout_constraintBottom_toTopOf="@+id/text7"
+        app:layout_constraintEnd_toStartOf="@+id/imgbt2"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@mipmap/contacticon_round" />
+
+    <ImageButton
+        android:id="@+id/imgbt2"
+        android:layout_width="81dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="160dp"
+        app:layout_constraintBottom_toTopOf="@+id/text7"
+        app:layout_constraintEnd_toStartOf="@+id/imgbt3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@mipmap/mailicon_foreground" />
+
+    <ImageButton
+        android:id="@+id/imgbt3"
+        android:layout_width="83dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="187dp"
+        app:layout_constraintBottom_toTopOf="@+id/text8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@mipmap/webicon_round" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

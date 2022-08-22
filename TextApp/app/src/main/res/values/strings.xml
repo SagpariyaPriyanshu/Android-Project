@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Activities</string>
+    <string name="branch_ce_it">Branch CE/IT</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="gender">Gender:-</string>
+    <string name="submit">Submit</string>
+    <string name="profile_status_active">Profile Status Active</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_last_name">Enter Last Name</string>
+    <string name="registration_form">Registration Form</string>
+    <string-array name="city">
+        <item>Rajkot</item>
+        <item>Bhavnagar</item>
+        <item>Surat</item>
+        <item>Valsad</item>
+        <item>Bharuch</item>
+        <item>Ahamdabad</item>
+    </string-array>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/home_item"
+        android:title="Home"
+        android:icon="@drawable/ic_launcher_background"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/help_item"
+        android:title="Help"
+        android:icon="@drawable/ic_launcher_foreground">
+        <menu>
+            <item android:id="@+id/call_item"
+                android:title="Call"
+                android:icon="@drawable/ic_launcher_foreground"/>
+            <item android:id="@+id/email_item"
+                android:title="Email"
+                android:icon="@drawable/ic_launcher_foreground"/>
+            <item android:id="@+id/web_item"
+                android:title="Web"
+                android:icon="@drawable/ic_launcher_foreground"/>
+        </menu>
+    </item>
+    <item android:id="@+id/exit_item"
+        android:title="Exit"
+        android:icon="@drawable/ic_launcher_background"/>
+
+</menu>

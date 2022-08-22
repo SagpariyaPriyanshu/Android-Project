@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tutorials</string>
+    <string name="textview1">Hello RKU</string>
+    <string name="rku_logo">TODO</string>
+    <string name="email">Email:- psagpariya148@rku.ac.in</string>
+    <string name="password">Password:- 12345</string>
+    <string name="city">City:- Rajkot</string>
+    <string name="gender">Gender:- Male</string>
+    <string name="second_name">Second Name:- Sagpariya</string>
+    <string name="first_name">First Name: Priyanshu</string>
+    <string name="enroll_no">20SOECE11063</string>
+    <string name="image1">TODO</string>
+</resources>

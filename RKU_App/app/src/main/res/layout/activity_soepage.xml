@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constrain1"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="10dp"
+    tools:context=".SOEpage">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="383dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo2"
+            app:srcCompat="@drawable/btechcomputerengineering" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo3"
+            app:srcCompat="@drawable/civil" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="385dp"
+        android:layout_height="167dp"
+        android:layout_marginBottom="350dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo1"
+            app:srcCompat="@drawable/information" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="188dp"
+            android:layout_height="154dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/electrical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="269dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/bt2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="136dp"
+            android:text="@string/department_of_computer_engineering_is_established_in_year_2006_the_department_offers_btech_and_mtech_programs_in_computer_engineering_the_department_also_offers_phd_program_in_computer_engineering_since_its_inception_btech_ce_program_was_offered_with_intake_of_60_present_intake_is_120" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:text="@string/holistic_education_in_engineering_and_technology_identifying_and_solving_real_life_problem_for_the_betterment_of_society_capability_of_analysis_creativity_in_concurrence_with_best_industry_practices_ambience_for_effective_communication_and_ethical_practice_in_increasingly_competitive_environment" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="166dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#B22222"
+        android:text="@string/contact_us"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
